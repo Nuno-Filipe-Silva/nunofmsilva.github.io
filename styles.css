@@ -1,0 +1,444 @@
+/* CSS Document */
+
+
+
+.nav-item {
+    
+            font-size:1.3em;
+    
+          }
+
+
+a.nav-item.nav-link  {
+    
+                        margin-right: 30px;
+                        margin-top: 35px;
+
+                     }
+
+
+.navbar-light .navbar-nav .nav-link.active {
+    
+                                              color: #f28232;
+                                              border-top: solid #f28232;
+ 
+                                            }
+
+
+
+.navbar-brand {
+	
+                font-size:1.8em;
+	
+              }
+
+
+
+.navbar-nav a:hover {
+	
+                      border-top: solid #f28232;
+                      
+				    }
+
+
+
+#topContainer {
+	
+				 background-image:url(imagem_Home.png);
+				 height:auto;
+				 width:100%;
+                 background-repeat:no-repeat;
+
+               }
+
+
+
+#topRow {
+	
+          margin-top:100px;
+          text-align:center;
+	
+	    } 
+			   
+
+
+#topRow h1 {
+	
+             font-size:300%;
+	
+           }			   
+
+
+
+.bold {
+	
+        font-weight:bold;
+	
+      }
+
+
+
+.marginTop {
+	
+             margin-top:140px;
+		
+           }
+
+
+.center {
+	
+           text-align:center;
+    
+        }
+
+
+
+.title {
+	
+		  margin-top:80px;	
+		  font-size:600%;	
+          font-family: 'Pinyon Script', cursive;
+	
+	   }
+
+
+
+.lead {
+    
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        text-align:center;
+    
+      }
+
+
+.flex-container{
+    
+                 display: flex;
+                 flex-wrap: wrap;
+                 justify-content: center;
+    
+               }
+
+
+
+.flex-container img {
+    
+                        width:200px;
+                        height:200px;
+                        margin:10px;
+                        transition: all 1s;
+    
+                     }
+
+
+
+.flex-container img:hover {
+    
+                             transform:scale(1.1);
+
+                           }
+
+
+
+#flex_pastelaria {
+    
+                        margin-bottom: 40px;
+    
+                      }
+
+
+#flex_pastelaria img {
+    
+                        width:270px;
+                        height:200px;
+                        margin:10px;
+                        transition: all 1s;
+    
+    
+                      }
+
+
+#pastelaria {
+    
+               background-color: rgba(255, 137, 40, 0.7);
+       
+            }
+
+
+
+#padaria {
+    
+            background-color: #ff9c37;
+
+         }
+
+
+#flex_padaria {
+    
+                margin-top: 10px;
+                margin-bottom: 40px;
+    
+                        
+              }
+
+
+#flex_padaria img {
+    
+                        width:160px;
+                        height:150px;
+                        margin:10px;
+                        transition: all 1s;
+    
+                   }
+
+
+
+.paes  {
+    
+                            margin-bottom: 40px;
+
+         }
+
+
+
+.paes li {
+    
+            background-color: #ff9c37;
+            font-family: 'Roboto', sans-serif;
+            font-size:130%;	
+            color: black;
+            border-color: none;
+            text-align: center;
+    
+         }
+
+
+ul {
+  
+     list-style-type: none;
+    
+   }
+
+
+
+.cards {
+    
+         display: flex;
+         flex-wrap: wrap;
+         border-color: #ff9c37;    
+          
+        }
+
+
+
+.card {
+    
+        flex: 120 0 250px;
+        text-align: center;
+        padding: 9px;
+        border-color: #ff9c37;    
+
+      }
+
+
+
+h3.card-title  {
+    
+                  background-color: #ff9c37;
+                  font-family: 'Roboto', sans-serif;
+                  color: black;
+
+                }
+
+
+h5.card-title  {
+    
+                  font-family: 'Roboto', sans-serif;
+                  color: black;
+
+               }
+
+
+.card-text {
+    
+              font-family: 'Roboto', sans-serif;
+              color: black;
+
+           }
+
+
+.price {
+    
+         color:#ff9c37;
+    
+       }
+
+
+
+#flex_refeicoes img {
+    
+                        width:250px;
+                        height:150px;
+                        transition: all 1s;
+                        text-align: center; 
+                        border-color: #e28c01;    
+
+                    }
+
+
+
+.list-group  {
+  
+               display: inline-flex;
+               flex-direction: column;
+               flex: 1;
+
+             }
+
+
+.list-group-item {
+    
+                    flex: 1;
+    
+                 }
+
+
+
+
+
+
+
+#footer {
+	
+          background-color:#fed9ad;
+          padding-top:5px;
+          width:100%; 
+          font-family: 'Roboto', sans-serif;
+          color: black;
+    
+        }
+
+    
+.contactbackground {
+    
+                      background-color:#fed9ad;
+
+                   }
+
+
+
+
+.contactstitles {
+    
+                  font-family: 'Pinyon Script', cursive;
+                  color: black;
+                  font-size: 288%;
+                  text-align: center;
+    
+                }
+
+
+
+.contactstext {
+    
+                 font-family: 'Roboto', sans-serif;
+                 color: black;
+                 text-align: center;  
+                 margin-top: 12%;
+
+              }
+
+
+
+.contactsphonenumber {
+    
+                        color: #F07818;
+                        font-family: 'Roboto', sans-serif;
+                        text-align: center; 
+    
+                     }
+
+
+
+.contactstitlephonenumber {
+    
+                            font-family: 'Pinyon Script', cursive;
+                            color: black;
+                            font-size:288%;
+                            text-align: center;  
+                            margin-left: 15%;
+
+                          }
+
+
+
+
+.contactshoursdays {
+    
+                     color: #F07818;
+                     font-family: 'Roboto', sans-serif;
+                     text-align: center;  
+                     margin-bottom: 5%;
+                     margin-top: 12%;
+   
+                   }
+
+
+
+.contactshours {
+    
+                    color: black;
+                    font-family: 'Roboto', sans-serif;
+                    text-align: center;  
+                    margin-bottom: 5%;
+
+               }
+
+
+
+
+.contactstitleemail {
+    
+                        font-family: 'Pinyon Script', cursive;
+                        color: black;
+                        font-size:288%;
+                        text-align: center;  
+
+                    }
+
+
+
+.contactsemail a {
+    
+                    color: #007bff;
+                    font-family: 'Roboto', sans-serif;
+                    text-align: center; 
+
+                 }
+
+
+.fa-facebook {
+    
+               background: #3B5998;
+               color: white;
+
+             }
+
+
+.fa {
+    
+        padding: 20px;
+        font-size: 60px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+    
+    }
+
+
+.marginBottom {
+	
+                margin-bottom:30px;
+	
+              } 
